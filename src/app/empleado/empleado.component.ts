@@ -1,11 +1,11 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'app-fruta',
-  templateUrl: 'fruta.html'
+  selector: 'app-empleado',
+  templateUrl: 'empleado.html'
 })
 
-export class FrutaComponent {
+export class EmpleadoComponent {
   public nombre_componente = 'componente Fruta';
   public listado_fruta = 'naranja, manzana, pera';
 }
